@@ -1,0 +1,366 @@
+/* Font connection */
+
+@font-face {
+    font-family: 'Jaapokkisubtract';
+    src: url('../fonts/JaapokkisubtractRegular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/JaapokkisubtractRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/JaapokkisubtractRegular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/JaapokkisubtractRegular.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/JaapokkisubtractRegular.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/JaapokkisubtractRegular#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+.jpk-font{
+    font-family: 'Jaapokkisubtract', sans-serif;
+}
+
+/* Specification */
+body {
+	font-family: Calibri, sans-serif;
+	font-size: 12px;
+	color: #0001C5;
+	margin: 0;
+}
+
+.container {
+	margin: 0 7%;
+	position: relative;
+
+}
+
+div, p, span, a, input, button {
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Jaapokkisubtract', sans-serif;
+    letter-spacing: 0.14em; 
+    font-weight: normal;
+    line-height: 1.2em;
+}	
+
+.btn {
+	font-family: 'Jaapokkisubtract', sans-serif;
+	font-size: 20px;
+	color: #fff;
+	border: 3px solid #fff;
+	background: transparent;
+	cursor: pointer;
+	padding: 17px 0;
+	width: 217px;
+	transition: all 0.3s ease;
+}
+
+.btn:hover {
+	color: #fff;
+	background: #0001c5;
+}
+/**********HERO PAGE*************************/
+.header {
+	background: #0405A7 url(../img/first_bg.jpg) no-repeat center bottom/cover;
+	height: 100vh;
+	box-shadow: 0 40px 190px rgba(31, 50, 181, 0.5);
+}
+
+.header .container {
+	height: 100vh;
+}
+
+.logo {
+	width: 48px;
+	height: 48px;
+	position: absolute;;
+	top: 10%;
+	background: #fff;
+	font-size: 30px;
+	text-align: center;
+	line-height: 48px;
+	color: #0000a0;
+	text-transform: uppercase;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.logo:hover {
+	border-radius: 10px;
+}
+
+.brah {
+	width: 41px;
+	height:174px;
+	background: #fff;
+	color: #0000a0;
+	position: absolute;
+	top: 0;
+	right: 35%;
+	font-size: 18px;
+	text-align: center;
+	padding: 10px 15px;	
+	line-height: 1.5em;
+	display: block;
+}
+
+.hamburger {
+	width: 41px;
+	position: absolute;
+	top: 8%;
+	right: 0;
+	float: right;
+	cursor: pointer;
+}
+
+.hamburger span {
+	background: #fff;
+	height: 1px;
+	width: 100%;
+	display: block;
+	margin-bottom: 5px;
+	float: right;
+}
+
+.hamburger span:first-child {
+	width: 100%;
+}
+
+.hamburger span:nth-child(2) {
+	width: 75%;
+}
+
+.hamburger span:last-child {
+	width: 50%;
+}
+
+.hamburger:hover span {
+	float: left;
+}
+
+.offer {
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	margin: -250px;
+}
+
+.offer_worth {
+	color: #1b1cc4;
+	font-size: 250px;
+	position: absolute;
+}
+
+.offer_future {
+	color: #fff;
+	font-size: 55px;
+    position: relative;
+    width: 561px;
+    margin-top: 110px;
+    margin-left: 134px;
+}
+
+.offer_future:after {
+	content: '';
+	display: block;
+	background: #fff;
+	width: 35px;
+	height: 4px;
+	position: absolute;
+    right: 200px;
+    top: -20px;
+}
+
+.offer_text {
+	color: #fff;
+	font-size: 17px;
+	width: 280px;
+    position: relative;
+    margin-left: 200px;
+}
+
+.offer_btn {
+	margin-left: 320px;
+    margin-top: 120px;
+}
+
+.offer_btn:hover {
+	background:#fff;
+	color: #0102B1;
+}
+
+.offer_next {
+	color: #fff;
+	font-size: 200px;
+    width: 200px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -180px;
+    line-height: 0;
+    text-shadow: 15px 15px 0 #0309a1;
+    letter-spacing: 0.05em
+}
+
+.offer_next span {
+	margin-right: -70px;
+	line-height: 0.7em;
+}
+
+.offer_next  span:nth-child(2) {
+    color: #0048ff;
+}
+
+.scroll {
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	right: 5%;
+	text-decoration: none;
+	font-size: 22px;
+	display: block;
+	width: 100px;
+	height: 130px;
+	border-right: 2px solid #fff;
+	padding-right: 40px;
+    padding-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.scroll:hover {
+	background: #fff;
+	color: #0102B1;
+}
+
+/*******************SERVICES********************/
+
+.services {
+	padding-bottom: 180px;
+	padding-top: 110px;
+}
+.services_text_first{
+    font-size: 23px;
+    color: #c0c0e8;
+    margin:0;
+}
+
+.services_text_second {
+	font-size: 50px;
+	margin-left: 50px;
+    position: relative;
+    margin-top: 25px;
+}
+
+.services_blocks {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 120px;
+}
+
+.blocks {
+	display: block;
+	width:20%;
+	height: 360px;
+	border: 1px solid #0001C5;
+	text-decoration: none;
+	font-size: 26px;
+	position: relative;
+}
+
+.service_icon {
+	font-size: 48px;	
+	display: block;
+	margin-top: 35px;
+	margin-left: 35px;
+	margin-bottom: 70px;
+	color: #0001C5;
+}
+
+.icon_text {
+	font-size: 26px;
+	text-align: left;
+	padding-left: 20px;
+	color: #0001C5;
+}
+
+.icon_add {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 38px;
+	height: 37px;
+	background:#0001C5;
+    color: #fff;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.blocks_index {
+	margin-left: -40px;	
+	font-family: 'Jaapokkisubtract', sans-serif;
+	color: #a8a8e4;
+	font-size: 23px;	
+}
+
+.blocks:hover {
+	
+    color: #fff;
+    box-shadow: 16px 16px 65px rgba(0,1,197,0.45);
+ }
+
+/*************FOOTER*******************************/
+.footer {
+    background: #ededf8;
+    padding: 15px 0;
+}
+
+.credits {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0;
+	
+}
+
+.credit_logo{
+	display: block;
+	float: left;
+	margin-top: 30px;
+	margin-left: 15px;
+	width: 48px;
+	height: 48px;
+	background:  #0001c5 ;
+	font-size: 30px;
+	text-align: center;
+	line-height: 48px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.credits_btn {
+	height: 25px;
+	width: 180px;
+    padding-bottom: 35px;
+    padding-top: 10px;
+    margin-top: 20px;
+    border: 3px solid #0001c5;
+    color: #0001c5;
+    font-size: 20px;
+
+}
+
+.credits_text {
+	margin-top: 45px;
+	font-size: 15px
+
+}
+
+.go_to {
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
